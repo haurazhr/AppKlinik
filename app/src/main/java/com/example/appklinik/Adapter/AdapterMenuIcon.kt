@@ -34,7 +34,7 @@ class AdapterMenuIcon (
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem = itemMenuList[position]
-        holder.imgMenuIcon.setImageResource(currentItem.iconImage)
+        holder.imgMenuIcon.setImageResource(currentItem.icon)
         holder.txtNamaMenu.setText(currentItem.iconName)
     }
 

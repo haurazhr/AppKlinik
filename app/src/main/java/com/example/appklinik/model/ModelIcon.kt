@@ -1,7 +1,9 @@
 package com.example.appklinik.model
 
 data class ModelIcon(
-    var iconImage : Int,
+
+    var icon : Int,
     var iconName : String
+
 )
 
